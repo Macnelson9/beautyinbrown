@@ -36,7 +36,7 @@ ini_set('display_errors', '1');
  //Set gmail password
    $mail->Password = "Innymoney04";
  //Email subject
-   $mail->Subject = "$subject";
+   $mail->Subject = "Contact";
  //Set sender email
    $mail->setFrom('inny@wetindeycodeacademy.com.ng', 'Contact Page');
  //Enable HTML
@@ -150,6 +150,7 @@ ini_set('display_errors', '1');
    if ( $mail->send() ) {
              
     echo "<script>alert('Email Sent')
+        location.href='index.html';
       </script>";
   } } 
   ?> 
