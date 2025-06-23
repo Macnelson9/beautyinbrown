@@ -96,7 +96,7 @@ ini_set('display_errors', '1');
                   <tbody>
                       <tr>
                                         <td style='text-align: center; padding-bottom:25px'>
-                                        <strong>BEAUTY IN BLACK</strong>
+                                        BEAUTY IN BLACK
                                     </td>
                                     </tr>
                   </tbody>
@@ -150,8 +150,13 @@ ini_set('display_errors', '1');
    if ( $mail->send() ) {
              
     echo "<script>alert('Email Sent')
+<<<<<<< HEAD
         location.href='index.html';
       </script>";
+=======
+      location.href='index.html';
+    </script>";
+>>>>>>> 0fcd5d0f70d44f4048185371bf7df5333e838d62
   } } 
   ?> 
  
