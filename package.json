@@ -1,0 +1,28 @@
+{
+  "name": "beautyinbrown",
+  "version": "1.0.0",
+  "description": "Beauty in Brown Official Website",
+  "default": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Macnelson9/beautyinbrown2.git"
+  },
+  "author": "Uche Macnelson Ofatu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Macnelson9/beautyinbrown2/issues"
+  },
+  "homepage": "https://github.com/Macnelson9/beautyinbrown2#readme",
+  "dependencies": {
+    "babel": "^5.8.38",
+    "parcel": "^2.15.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-webmanifest": "^2.15.4"
+  }
+}
