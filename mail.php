@@ -150,7 +150,6 @@ ini_set('display_errors', '1');
    if ( $mail->send() ) {
              
     echo "<script>alert('Email Sent')
-      location.href='index.html';
     </script>";
   } } 
   ?> 
