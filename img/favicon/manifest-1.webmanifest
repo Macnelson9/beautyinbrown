@@ -1,9 +1,17 @@
 {
-  "name": "Blayden - Personal Portfolio & Resume HTML Template",
-  "short_name": "Blayden",
+  "name": "Beauty in Brown Nails - Nails Specialist and Stylist based in Nigeria, Africa",
+  "short_name": "BeautyinBrown",
   "icons": [
-    { "src": "/img/favicon/android-icon-192.png", "type": "image/png", "sizes": "192x192" },
-    { "src": "/img/favicon/android-icon-512.png", "type": "image/png", "sizes": "512x512" }
+    {
+      "src": "/img/favicon/android-icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/favicon/android-icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
   ],
   "theme_color": "#efefef",
   "background_color": "#efefef",
